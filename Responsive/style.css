@@ -1,0 +1,303 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    color: #666 ;
+    line-height: 22px;
+}
+
+.logo_img{
+    max-width: 149px;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20 0 20;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul .menu_item {
+    display: inline-block;  
+}
+
+.menu_item a{
+    font-size: 18px;
+}
+
+.main_title {
+    font-size: 20px;
+    
+}
+.menu a {
+    color: #0099ff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: white;
+    background: #0099ff; 
+}
+
+.btn {
+    text-transform: uppercase ;
+    text-decoration: none;
+}
+aside {
+    background: #f3f3f3;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.about_lor {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.about_lor article:nth-child(1) {
+    flex: 1;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.about_lor article:nth-child(2) {
+    flex: 2;
+    max-width: 490px;
+}
+
+aside .main_title {
+    line-height: 10px;
+    text-align: left;
+    margin-top: 0;
+}
+
+aside .btn {
+    background: #0099ff;
+    color: white;
+    padding:8px 12px 8px 12px;
+    border-radius: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+aside a:hover, 
+aside a:focus {
+    background: #8dbc01;
+}
+
+aside .gallery_item {
+    outline: 5px solid white;
+}
+
+section article {
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+section article:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_item {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+/*********/
+.wrapper_div{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.div_item{
+    background-image: url(img/div_img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1100px;
+    height: 470px;
+    position: relative;
+}
+
+.about_div{
+    margin: 0;
+}
+
+.one{
+    background-color: #f3f3f3;
+    width: 600px;
+    height: 134px;
+    position: relative;
+    left: -60px;
+    top: 94px;
+    z-index: 1;
+    padding: 15px;
+}
+
+.two{
+    background-color: #f3f3f3;
+    width: 800px;
+    height: 158px;
+    position: relative;
+    left: 360px;
+    top: 82px;
+    color: black;
+    padding: 15px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+footer {
+    background: #333;
+}
+
+footer a {
+    color: #666;
+    text-decoration: underline;
+}
+
+.ending {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/*mediaqueries*/
+@media screen and (max-width:1240px){
+    .div_item{
+        max-width: 100%;
+    }
+
+    .one{
+        margin: auto;
+        left: 0;
+        top: 5%;
+    }
+
+    .two{
+        margin: auto;
+        left: 0;
+        width: 350px;
+        height: 230px;
+    }
+
+    .about_div{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1125px){
+    .wrapper{
+        margin: 0 40px;
+    }
+
+    .about_lor{
+        margin-top: 25px;
+        margin-bottom: 18px;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+    .menu a{
+        font-size: 16px;
+    }
+    
+    .main_menu {
+        /*display: block;*/
+        text-align: center;
+    }
+    .wrapper{
+        margin: 0 20px;
+    }
+    
+    ul li {
+        display: list-item;
+        padding-bottom: 10px;
+        
+    }
+    .about_lor {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .about_lor article:nth-child(1){
+        padding-right: 10px;
+        text-align: justify;
+    }
+    aside .main_title {
+        text-align: center;
+
+    }
+    .buttons {
+        text-align: center;
+    }
+    .about_lor article:nth-child(2){
+        margin: 20px auto;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    aside{
+        margin: 30px auto;
+    }
+
+    .menu_item{
+        width: 100%;
+    }
+    
+    .logo_img{
+        width: 100%;
+    }
+
+    section {
+        display: block;
+    }
+    section article {
+        max-width: 800px; 
+    }
+    section article:nth-child(2) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div_item{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .one{
+        max-width: 80%;
+        margin: auto;
+    }
+}
