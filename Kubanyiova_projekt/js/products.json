@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "category": "Praliky",
+        "name": "DeLuxe výber praliniek",
+        "price": 37.90,
+        "description": "DeLuxe 25 kusový výber praliniek",
+        "url": "pralins/lux1.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 2,
+        "category": "Praliky",
+        "name": "Z Mini výber praliniek",
+        "price": 3.90,
+        "description": "2 kusy vybraných bonbónov sú umiestnené v mini a zároveň elegantných darčekových krabiciach.",
+        "url": "pralins/lux2.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 3,
+        "category": "Praliky",
+        "name": "Z Petit výber praliniek",
+        "price": 9.50,
+        "description": "2 kusy vybraných bonbónov sú umiestnené v mini a zároveň elegantných darčekových krabiciach.",
+        "url": "pralins/lux3.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 4,
+        "category": "Tabuľková čokoláda",
+        "name": "ČOKOLÁDA kolekcia",
+        "price": 26,
+        "description": "Milk 25% – Milk-nuts 30% – Dark 60% – Jamaica 72% – Peru 73% Ecuador – 73% – Venezuela 74% – Madagascar 74% Hmotnosť: 800 g",
+        "url": "chocolate/cok1.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 5,
+        "category": "Tabuľková čokoláda",
+        "name": "Čokoláda plnená jahodami",
+        "price": 5.90,
+        "description": "Milk 25% – Milk-nuts 30% – Dark 60% – Jamaica 72% – Peru 73% Ecuador – 73% – Venezuela 74% – Madagascar 74% Hmotnosť: 800 g",
+        "url": "chocolate/cok2.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 6,
+        "category": "Tabuľková čokoláda",
+        "name": "Maľovaná čokoláda",
+        "price": 5.60,
+        "description": "Čokoládové tabule 3D signature od ZAX-u sú strednej veľkosti a prístupné v darčekovom balení. 80 a 90 g tabule sú od prvej do poslednej maľované ručne. Ich základné suroviny VARLHONA ako tmavá, mliečna a biela čokoláda sa vo väčšine prípadov kombinujú so špeciálnou čokoládou Inspiration s ovocnou príchuťou.",
+        "url": "chocolate/cok3.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 7,
+        "category": "Dražé",
+        "name": "Chrumkavé jahody v čokoláde",
+        "price": 6.90,
+        "description": "Lyofilizované jahodové plátky v horkej čokoláde.",
+        "url": "draze/dr1.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 8,
+        "category": "Dražé",
+        "name": "Dražé (Piemont)",
+        "price": 5.90,
+        "description": "Lieskový orech z Piemontu v horkej čokoláde.",
+        "url": "draze/dr2.jpg",
+        "stock": "true"
+    },
+    {
+        "id": 9,
+        "category": "Dražé",
+        "name": "Dražé (Caramel)",
+        "price": 6.90,
+        "description": "Karamelizované lieskové orechy v horkej čokoláde.",
+        "url": "draze/dr3.jpg",
+        "stock": "true"
+    }
+]

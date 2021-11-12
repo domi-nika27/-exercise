@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zax</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="products2.html">
+                    <img src="picture/zax-logo.svg" alt="brand logo" style="width: 35px;">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">O nás</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="products2.html">Naše produkty</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="galery.html">Galéria</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Vyhľadaj</button>
+                    </form>
+                </div>
+                <a href="cart.html" class="navbar-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge badge-warning"   id="cartIcon"></span>
+                </a>
+            </div>
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bannerImg">
+                    <img src="picture/banner/ban1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item bannerImg">
+                    <img src="picture/banner/ban2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item bannerImg">
+                    <img src="picture/banner/ban3.jpg" class="d-block w-100" alt="...">
+                    
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>            
+    </header>
+
+    <main>
+        
+        <article class="aboutPage">
+            <h5>Ako sa vyrába?</h5>
+            <p>
+                Našou zásadou je používať, čo najkvalitnejšie suroviny. Žiaľ, používané suroviny nie sú lokálne, avšak sme precestovali všetky štáty sveta, kde sa kakao pestuje vo veľkej miere. Zaujali nás najmä krajiny Južnej Ameriky či Afriky, madagaskarská vanilka, lieskové orechy z Piemontu a v neposlednom rade sme najkvalitnejšie mandle našli v Kalifornii či štátoch Stredozemného mora.
+            </p>
+            
+        </article>
+
+        <div class="container allCard">
+            <div class="row" id="products">
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footerInfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <ul class="info">
+                        <li>
+                            <a href="contact.html">Kontakty</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="gdpr.html">Ochrana osobnách údajov</a>
+                        </li>
+                        <li>
+                            <a href="businessC.html">Obchodné podmienky</a>
+                        </li>
+                        <li>
+                            <a href="howS">Ako nakupovať</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="/js/products.json"></script>
+    <script src="/js/script.js"></script>
+
+    <script>
+        load();
+        console.log("nieco");
+    </script>
+
+</body>
+</html>
